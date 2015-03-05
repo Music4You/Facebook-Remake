@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+* {
+	padding:0;
+	margin:0;	
+}
+body {
+	background-image:url('img/background.png');	
+	background-repeat:no-repeat;
+	background-size:auto;
+	color:white;
+}
+#page {
+	margin-top:2%;
+	margin-bottom:2%;
+}
+.main {
+	margin-left:10%;
+	margin-right:10%;	
+}
+#header {
+	padding-bottom:8%;	
+}
+nav #logo {
+	font-family: Tahoma;
+	font-size:25pt;
+	font-weight:bold;
+}
+nav #logo a {
+	color:white;	
+	text-decoration:none;
+}
+nav #logo a:hover {
+	color: #b7b7b7;
+	-webkit-transition: all 500ms ease 0s;
+	-o-transition: all 500ms ease 0s;
+	transition: all 500ms ease 0s;
+}
+nav #profil_name {
+	font-size:13pt;	
+}
+nav #notivications {
+	padding-left:10%;
+	display:inline;
+}
+nav .notification {
+	width:30px;
+	display:inline;	
+	padding-right:5px;
+}
+.push_right {
+	float:right;	
+}
+.push_left {
+	float:left;	
+}
+footer {
+    bottom: 0;
+    font-size: 12px;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+	color:#898989;
+	text-align:center;
+}
+#body {
+	font-family: Arial;	
+}
+.timeline {
+	margin-top:30px;
+}
+.timeline .post {
+	float:left;
+	background-color:white;
+	width:25%;
+	padding-bottom:5px;
+	margin-right:3%;
+}
+.timeline .big {
+		width:35%;
+}
+.timeline .post .head {
+	text-decoration:none;
+	color:#5B5959;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+	position:absolute;
+}
+.timeline .post .head a {
+	text-decoration:none;
+	color:#5B5959;
+	font-weight:bold;
+	font-size:15pt;
+}
+.timeline .post .head a:hover {
+	color:#b7b7b7;
+	-webkit-transition: all 300ms ease-in-out 0s;
+	-o-transition: all 300ms ease-in-out 0s;
+	transition: all 300ms ease-in-out 0s;
+}
+.timeline .post .body {
+	position:relative;
+	color:#2A2929;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.timeline .post .postbar {
+	color:#5B5959;
+	font-size:11pt;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:5px;
+}
+.timeline .post .postbar small {
+	font-size:8pt;	
+	padding-right:5px;
+}
+.timeline .post .postbar a {
+	text-decoration:none;
+	color:#5B5959;
+	font-weight:bold;
+	padding-right:1px;
+}
+.timeline .post .postbar a:hover {
+	color:#b7b7b7;
+	-webkit-transition: all 300ms ease-in-out 0s;
+	-o-transition: all 300ms ease-in-out 0s;
+	transition: all 300ms ease-in-out 0s;
+}
+.clearfix:before,
+.clearfix:after {
+content: " ";
+display: table;
+}
+.clearfix:after {
+clear: both;
+}
+.clearfix {
+*zoom: 1;
+}
